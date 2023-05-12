@@ -1,0 +1,503 @@
+:root {
+    --gray-color: rgb(211,211,211);
+    --orange-color: rgb(255,165,0);
+    --orangeh-color: rgb(255,140,0);
+    --grayblack-color: rgb(128,128,128);
+    --graywhite-color: rgb(220,220,220);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(64, 64, 64);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 3px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.contact div {
+    padding: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.contact div i {
+    font-size: 15px;
+    padding: 0 4px;
+}
+.contact div:hover {
+    color: var(--orangeh-color);
+}
+
+.mxh {
+    display: flex;
+    align-items: center;
+}
+.mxh .icon {
+    margin-right: 30px;
+    font-size: 20px;
+}
+.mxh .icon i {
+    padding: 5px;
+    cursor: pointer;
+}
+.mxh .icon i:hover {
+    color: var(--orangeh-color);
+}
+.language img {
+    height: 15px;
+    width: 30px;
+}
+.language #language {
+    border-right: 2px solid white;
+}
+.language #eng {
+    margin-right: 30px;
+    color: var(--gray-color);
+}
+.language span {
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+}
+.language span:hover {
+    color: var(--orange-color);
+}
+.language #eng:hover {
+    color: var(--orangeh-color);
+}
+
+.header_uts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.menu_list {
+    position: relative;
+}
+.menu_list span:first-child {
+    padding: 15px;
+}
+.menu_list span:first-child:hover {
+    color: var(--orange-color);
+    cursor: pointer;
+}
+.menu_list span:last-child {
+    border-bottom: 4px solid var(--orange-color);
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    transition: 0.2s;
+}
+.menu_list:hover span:last-child {
+    width: 100%;
+}
+.menu i:hover {
+    color: var(--orange-color);
+}
+.menu i {
+    padding: 15px;
+    color: var(--gray-color);
+    font-size: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.logo img {
+    width: 140px;
+    height: 50px;
+    margin: 20px 50px;
+}
+
+.about_uts {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.about_uts_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.about_uts_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.about_uts_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.about_uts_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.about_uts_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.about_uts_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.admissions {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.admissions_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.admissions_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.admissions_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.admissions_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.admissions_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.admissions_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.academic {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.academic_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.academic_list div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.academic_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.academic_list i {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.academic_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.academic_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.academic_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.academic_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.student {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.student_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.student_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.student_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.student_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.student_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.student_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.social {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.social_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.social_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.social_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.social_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.social_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.social_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.standby {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.standby_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.standby_list div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.standby_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.standby_list i {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.standby_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.standby_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.standby_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.standby_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.update {
+    background: var(--graywhite-color);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.update_list {
+    width: 180px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.update_list div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.update_list span {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.update_list i {
+    padding-bottom: 30px;
+    color: var(--grayblack-color);
+    font-size: 16px;
+}
+.update_content {
+    max-width: 580px;
+    padding: 30px 100px;
+}
+.update_content h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--orangeh-color);
+    margin-bottom: 40px;
+    padding-bottom: 40px; 
+    border-bottom: 2px solid var(--orangeh-color);
+}
+.update_content p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.update_image {
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.hide {
+    display: none;
+}
