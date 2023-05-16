@@ -147,15 +147,16 @@ body {
     overflow: hidden;
 }
 .about_uts_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin: 40px 40px;
+    margin: 40px 0;
 }
 .about_uts_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -182,6 +183,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.about_uts .about_uts_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .admissions {
     background: var(--graywhite-color);
@@ -193,15 +200,16 @@ body {
     overflow: hidden;
 }
 .admissions_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin: 40px 40px;
+    margin: 40px 0;
 }
 .admissions_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -228,6 +236,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.admissions .admissions_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .academic {
     background: var(--graywhite-color);
@@ -239,13 +253,12 @@ body {
     overflow: hidden;
 }
 .academic_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .academic_list div {
     width: 100%;
@@ -253,12 +266,13 @@ body {
     justify-content: space-between;
 }
 .academic_list span {
-    padding-bottom: 30px;
+    width: 100%;
+    padding: 15px 20px;
     color: var(--grayblack-color);
     font-size: 16px;
 }
 .academic_list i {
-    padding-bottom: 30px;
+    padding: 15px 15px;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -285,6 +299,18 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.academic .academic_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
+.academic .academic_list div:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .student {
     background: var(--graywhite-color);
@@ -296,15 +322,16 @@ body {
     overflow: hidden;
 }
 .student_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin: 40px 40px;
+    margin: 40px 0;
 }
 .student_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -331,6 +358,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.student .student_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .social {
     background: var(--graywhite-color);
@@ -342,15 +375,16 @@ body {
     overflow: hidden;
 }
 .social_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin: 40px 40px;
+    margin: 40px 0;
 }
 .social_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -377,6 +411,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.social .social_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .standby {
     background: var(--graywhite-color);
@@ -388,13 +428,12 @@ body {
     overflow: hidden;
 }
 .standby_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .standby_list div {
     width: 100%;
@@ -402,12 +441,13 @@ body {
     justify-content: space-between;
 }
 .standby_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
 .standby_list i {
-    padding-bottom: 30px;
+    padding: 15px 15px;
     color: var(--grayblack-color);
     font-size: 16px;
 }
@@ -434,6 +474,18 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
+.standby .standby_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
+.standby .standby_list div:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
 
 .update {
     background: var(--graywhite-color);
@@ -445,13 +497,12 @@ body {
     overflow: hidden;
 }
 .update_list {
-    width: 180px;
+    width: 250px;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .update_list div {
     width: 100%;
@@ -459,16 +510,20 @@ body {
     justify-content: space-between;
 }
 .update_list span {
-    padding-bottom: 30px;
+    padding: 15px 20px;
+    width: 100%;
     color: var(--grayblack-color);
     font-size: 16px;
 }
 .update_list i {
-    padding-bottom: 30px;
+    padding: 15px 0;
+    padding-right: 15px;
     color: var(--grayblack-color);
     font-size: 16px;
 }
 .update_content {
+    background-image: url("D:\02_Tùng Dương_12T2\Js\UTS\bg-quote.png");
+    background-size: 100% 100%;
     max-width: 580px;
     padding: 30px 100px;
 }
@@ -490,6 +545,18 @@ body {
     margin: 40px;
     border-radius: 10px;
     overflow: hidden;
+}
+.update .update_list span:hover {
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
+}
+.update .update_list div:hover{
+    color: var(--orangeh-color);
+    background: rgb(255, 204, 153);
+    background-size: 100%;
+    font-weight: bold;
 }
 
 .box {
